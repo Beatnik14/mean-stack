@@ -1,0 +1,21 @@
+mat-card {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+
+  form {
+    width: 100%;
+    mat-form-field {
+      resize: none;
+      width: 100%;
+      textarea {
+        width: 100%;
+      }
+    }
+    button {
+      width: 8rem;
+      margin: 2vh auto;
+      display: block;
+    }
+  }
+}

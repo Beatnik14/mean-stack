@@ -1,1 +1,15 @@
-<mat-toolbar color="primary">MyMessages</mat-toolbar>
+<mat-toolbar color="primary">
+  <ul>
+    <li>
+      <a
+        [routerLink]="['/']"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >MyPosts</a
+      >
+    </li>
+    <li>
+      <a [routerLink]="['create']" routerLinkActive="active">Create Post</a>
+    </li>
+  </ul>
+</mat-toolbar>

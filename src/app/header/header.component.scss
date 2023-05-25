@@ -1,0 +1,18 @@
+mat-toolbar {
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      color: white;
+      &:hover {
+        color: rgb(252, 0, 231);
+      }
+    }
+    .active {
+        color: rgb(252, 0, 231);
+    }
+  }
+}

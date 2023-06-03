@@ -12,10 +12,20 @@ mat-card {
         width: 100%;
       }
     }
+    .image-preview {
+      max-width: 80%;
+      margin: 0 auto;
+      img {
+        width: 100%;
+      }
+    }
     button {
       width: 8rem;
       margin: 2vh auto;
       display: block;
+    }
+    input[type="file"] {
+      visibility: hidden;
     }
   }
 }
